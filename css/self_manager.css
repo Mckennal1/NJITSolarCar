@@ -1,0 +1,16 @@
+.self_team_image {
+	width:200px;
+	height: 200px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: rgb(204,0,0);
+  line-height: 95px;
+  /*text-align: center;*/
+  background: #fff;
+  border:3.5px solid #343a40;
+}

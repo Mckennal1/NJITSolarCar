@@ -1,0 +1,72 @@
+.center_text {
+	text-align: center;
+}
+
+.divider {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	border-top-color: rgb(204,0,0);
+}
+
+.self_icon {
+    font-size: 7ex;
+    color:rgb(204,0,0);
+}
+
+.self_nav_color {
+	color: #FFF;
+	font-size: 2.5ex;
+}
+
+.color_icon {
+	color: none;
+}
+
+.self_footer {
+	margin-top: 30px;
+	color: #FFF;
+	font-size: 2.5ex;
+}
+
+.self_body_color {
+	background-color: #d4d1d166
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: rgb(204,0,0);
+  line-height: 95px;
+  /*text-align: center;*/
+  background: #fff;
+  border:3.5px solid #343a40;
+}
+
+/*.badge {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: yellow;
+}*/

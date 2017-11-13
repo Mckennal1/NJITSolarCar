@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>NJIT Solar Car</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/self_battery.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/round-about.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Social Media Link-->
+    <link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.css">
+    <link rel="stylesheet" href="bootstrap-social-gh-pages/assets/css/font-awesome.css">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Scroll up button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/self.css" rel="stylesheet">
+
+    <!-- Javascript -->
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body class = "self_body">
+    <div class="navbar-wrapper self_wrapper">
+      <div class="container self_container">
+
+        <nav class="navbar navbar-static-top self_nav">
+          <div class="container">
+            <div class="navbar-header">
+              <p class="navbar-brand self_title">NJIT Solar Car Team</p>
+              <!--<img class="navbar-brand self_logo" src="logo1-color.png" alt="logo1">-->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <!--<ul class="nav navbar-nav navbar-right self_navs header-color">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Our Solar Car</a></li>
+                <li><a href="#donate">Come Race With Us</a></li>-->
+                
+                <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+                <nav id="sidebar-wrapper" class = "self_menu_toggle">
+                  <ul class="sidebar-nav">
+                    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                    <li class="sidebar-brand"><a class="js-scroll-trigger" href="NJITSolarCarTeam.html">NJIT Solar Car</a></li>
+                    <!--<li><a class="js-scroll-trigger" href="#top">Home</a></li>-->
+                    <li><a class="js-scroll-trigger" href="#about">About Us</a></li>
+                    <li><a class = "myclick">Team</a></li>
+                      <ul>
+                        <li><a class="js-scroll-trigger" href="#about">Team Managers</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Telemetry Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Electrical Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Mechanical Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Solar Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Business Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Marketing Team</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">Web Development Team</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="js-scroll-trigger" href="#portfolio">Blog</a></li>
+                    <li><a class="js-scroll-trigger" href="#portfolio">Sponsors</a></li>
+                    <li><a class="js-scroll-trigger" href="#portfolio">Donate</a></li>
+                    <li><a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a></li>
+                  </ul>
+                </nav>
+              <!--</ul>-->
+              <button onclick="topFunction()" class="fa fa-arrow-up" id="myBtn" style="font-size:24px"></button>
+              <i id="myBtn" style="font-size:24px"></i>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+      </div>
+
+
+    <!-- Team Photo Image -->
+    <div>
+      <img src="TeamPhoto1.jpg" class = "self_front_img">
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+
+      <!-- Mission section-->
+      <div class="container center">
+        <h2 id="mission" class="center">Our Mission</h2>
+        <p class="center">The NJIT Solar Car Team is a student-run organization formed in the spring of 2017. The team is an interdisciplinary, project-based learning community which seeks to provide undergraduate and graduate students of all majors in all departments with real-world experience in systems engineering. In order to prepare our students to be the innovators of tomorrow, our team emphasizes sustainable energy, taking initiative, providing experience for future career preparation, and the development of technical and soft skills in engineering, research, design, and business. The NJIT Solar Car Team will compete with other collegiate teams and their electric vehicles in the summer of 2018 in their first competition called “The American Solar Challenge,” a 2,000 mile cross-country time/distance rally event.</p>
+      </div>
+
+      <hr class="featurette-divider self_divider">
+
+      <!-- The Team section-->
+
+      <div class="container center">
+        <h2 id="team" class="center team_margin">The Team</h2>
+        <div class = "row self_icon_row">
+          <div class="col-xs-6 col-sm-3 center">
+            <a class = "link_color" href="batteryteam.html"><i class="fa fa-battery-full self_icon" aria-hidden="true"></i></a>
+            <p> Battery Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color" href=""><i class="fa fa-briefcase self_icon" aria-hidden="true"></i></a>
+            <p> Business Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color"  href=""><i class="fa fa-industry self_icon" aria-hidden="true"></i></a>
+            <p> Marketing Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color"  href=""><i class="fa fa-link self_icon" aria-hidden="true"></i></a>
+            <p> Telemetry Team</p>
+          </div>
+        </div>
+
+        <div class = "row self_icon_row">
+          <div class="col-xs-6 col-sm-3 center">
+            <a class = "link_color"  href=""><i class="fa fa-bolt self_icon" aria-hidden="true"></i></a>
+            <p> Electrical Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color" href=""><i class="fa fa-sun-o self_icon" aria-hidden="true"></i></a>
+            <p> Solar Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color" href="your link here"><i class="fa fa-wrench self_icon" aria-hidden="true"></i></a>
+            <p> Mechanical Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "link_color" href=""><i class="fa fa-window-maximize self_icon" aria-hidden="true"></i></a>
+            <p> Web Development Team</p>
+          </div>
+        </div>
+      </div>
+
+      <hr id="contact" class="featurette-divider self_divider">
+
+      <!-- Solar Car section-->
+      <div class="center">
+        <h2 id="team" class="center">Our Solar Car</h2>
+      </div>
+
+      <hr id="donate" class="featurette-divider self_divider">
+
+      <!-- Donate section-->
+      <div class="center">
+        <h2 id="team" class="center">Come Race With US</h2>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+      <!-- ackowledgements -->
+
+      <!-- FOOTER -->
+    <footer class="py-5 self_nav_color footer">
+      <div class="container">
+        <!--<p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>-->
+        <!--<div class = "row footer_row center">-->
+            <div class="col-xs-6 col-sm-2 col-sm-offset-1">
+              <p>1</p>
+              <p>Car</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>8</p>
+              <p>Subteams</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>50</p>
+              <p>Members</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>14</p>
+              <p>Majors</p>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+              <p>100%</p>
+              <p>Solar Power</p>
+            </div>
+        <!--</div>-->
+      </div>
+  </footer>
+      <!-- /.container -->
+    <!--</footer>
+      <footer class = "self_foot container-fluid">
+        <div class = "row footer_row center">
+            <div class="col-xs-6 col-sm-2 col-sm-offset-1">
+              <p>1</p>
+              <p>Car</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>8</p>
+              <p>Subteams</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>50</p>
+              <p>Members</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-2">
+              <p>14</p>
+              <p>Majors</p>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+              <p>100%</p>
+              <p>Solar Power</p>
+            </div>
+        </div>
+      </footer>-->
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/self.js"></script>
+    <!-- This is for the customized menu-dropdown-button-->
+    <script src="js/stylish-portfolio.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<svg style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;" preserveAspectRatio="none" viewBox="0 0 500 500" height="500" width="500"><defs><style type="text/css"></style></defs><text style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif" y="25" x="0">500x500</text></svg></body></html>
