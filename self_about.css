@@ -17,14 +17,14 @@
 }
 
 .divider {
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	border-top-color: rgb(204,0,0);
 }
 
 .img_resize {
   width:100%;
-  height: auto;
+  height: 525px;
 }
 
 .circle {
@@ -32,9 +32,22 @@
   height: 100px;
   border-radius: 50%;
   font-size: 13px;
-  color: rgb(204,0,0);
+  color: #fff;
   line-height: 95px;
   /*text-align: center;*/
-  background: #fff;
-  border:3.5px solid #343a40;
+  background: #1323d6;
+  /*border:3.5px solid #343a40;*/
+}
+
+.self_team_image {
+  width:200px;
+  height: 200px;
+}
+
+.managers {
+  margin-top: 25px;
+}
+
+.justify_descriptions {
+  text-align: justify
 }

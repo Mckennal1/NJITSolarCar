@@ -14,18 +14,21 @@
 }
 
 .self_nav_color {
-	color: #FFF;
-	font-size: 2.5ex;
+  background-color: rgb(204,0,0);
 }
-
+.img_resize {
+  width:100%;
+  height: auto;
+}
 .color_icon {
 	color: none;
 }
 
 .self_footer {
-	margin-top: 30px;
-	color: #FFF;
-	font-size: 2.5ex;
+  color: #FFF;
+  font-size: 2.5ex;
+  background-color: rgb(204,0,0);
+  margin-top: 60px;
 }
 
 .self_body_color {
@@ -33,20 +36,22 @@
 	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 
-.numberCircle {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+.self_div_12 {
+  margin-top: 45px;
+}
 
-    width: 36px;
-    height: 36px;
-    padding: 8px;
+.solar_logo {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
 
-    background: #fff;
-    border: 2px solid #666;
-    color: #666;
-    text-align: center;
+.njit_logo {
+  width: 10%;
+}
 
-    font: 32px Arial, sans-serif;
+.self_nav_height {
+  height: 60px;
 }
 
 .circle {
@@ -54,19 +59,9 @@
   height: 100px;
   border-radius: 50%;
   font-size: 13px;
-  color: rgb(204,0,0);
+  color: #fff;
   line-height: 95px;
   /*text-align: center;*/
-  background: #fff;
-  border:3.5px solid #343a40;
+  background: #1323d6;
+  /*border:3.5px solid #343a40;*/
 }
-
-/*.badge {
-  height: 100px;
-  width: 100px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: yellow;
-}*/
