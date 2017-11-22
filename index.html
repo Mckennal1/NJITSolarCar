@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Electrical Team</title>
-    <link href="css/self_electrical.css" rel="stylesheet">
+    <title>Home</title>
+    <!-- <link href="css/self_battery.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/round-about.css" rel="stylesheet">
+    <link href="css/self_home.css" rel="stylesheet">
        <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
@@ -47,11 +48,13 @@
 
   </head>
 
-  <body>
+  <body class = "self_body_color">
     <!-- Navigation -->
     <nav class="navbar-expand-lg navbar-dark fixed-top self_nav_color self_nav_fix ">
       <div class="container self_nav_height">
-        <a class="navbar-brand" href="#">Electrical Team</a>
+        <img src="LeaderHeadShots/NJIT_BLACK.png" class = "navbar-brand njit_logo">
+        <a class="navbar-brand" href="#">Solar Car Team</a>
+        <img src="logo1.png" class = "navbar-brand solar_logo">
         <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>-->
@@ -100,83 +103,111 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
 
       <!-- Introduction Row -->
       <!--<h1 class="my-4">About Us
         <small>It's Nice to Meet You!</small>
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>-->
+    <div>
+      <img src="TeamPhoto1.jpg" class = "img_resize">
+    </div>
+    <!-- Our Mission section-->
+    <div class = "container">
+      <div class = "row ">
+        <div class="col-12">
+          <h2 class="text-center">Our Mission</h2>
+          <p class="text-center">The NJIT Solar Car Team is a student-run organization formed in the spring of 2017.The team is an interdisciplinary, project-based learning community which seeks to provide undergraduate and graduate students of all majors in all departments with real-world experience in systems engineering.<br><br> In order to prepare our students to be the innovators of tomorrow, our team emphasizes sustainable energy, taking initiative, providing experience for future career preparation, and the development of technical and soft skills in engineering, research, design, and business. <br><br>The NJIT Solar Car Team will compete with other collegiate teams and their electric vehicles in the summer of 2018 in their first competition called “The American Solar Challenge,” a 2,000 mile cross-country time/distance rally event.</p>
+        </div>
+      </div>
+    </div>
 
-      <!-- Team Members Row -->
-      <div class="row">
-        <div class="col-lg-12 self_div_12">
-          <!--<h2 class="my-4">Marketing Team</h2>-->
-          <div class="col-lg-4 col-sm-6 text-center mb-4">
-            <img class="rounded-circle img-fluid d-block mx-auto self_team_image" src="LeaderHeadShots/Jason_Murzello.jpg" alt="">
-            <h3>Jason Murzello</h3>
-            <p>Electrical Team Leader</p>
-            <p>Electrical Engineering, 2018</p>
-            <p class = "justify_descriptions">Chair of NJIT IEEE Robotics and Automation Society Student Chapter.  Works on coding and assembling robotics and controls-related projects while also running coding workshops for Arduino. Besides school projects, interns at F.M.E. Music LLC to code, design, and assemble open-source DJ/sound equipment. </p>
+    <hr class="featurette-divider divider">
+
+    <!-- Team section -->
+    <div class="container center_text">
+        <h2>The Team</h2>
+        <div class = "row self_icon_row">
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon" href="batteryteam.html"><i class="fa fa-battery-full" aria-hidden="true"></i></a>
+            <p> Battery Team</p>
           </div>
-           <div class="col-lg-6 col-sm-6 text-center mb-4 self_team_description">
-            <p class = "justify_descriptions">The electrical team is responsible for designing the intermediate systems that will allow for proper interface between each electrical subsystem required for the car’s operation. The electrical team is broken into electrical sub-teams who work together to make sure system designs meet operational requirements while also satisfying the provisions to pass competition inspection.</p>
-            <p class = "justify_descriptions"> Team Memebrs: Jeffrey Jude, Tyler Cona, Magnus Harris, Roberto Adamson, Keta Shah, Vraj Patel, Mustafa Shukri, Troy Asare, Aravind Chavdavcrapu, Saeed Alqahtani</p>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon" href="business.html"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+            <p> Business Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon"  href="market.html"><i class="fa fa-industry" aria-hidden="true"></i></a>
+            <p> Marketing Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon"  href="telemtry.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+            <p> Telemetry Team</p>
           </div>
         </div>
-        <!--<div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+
+        <div class = "row self_icon_row">
+          <div class="col-xs-6 col-sm-3 center_text">
+            <a class = "self_icon"  href="electrical.html"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+            <p> Electrical Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon" href="solar.html"><i class="fa fa-sun-o" aria-hidden="true"></i></a>
+            <p> Solar Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon" href="mechanical.html"><i class="fa fa-wrench" aria-hidden="true"></i></a>
+            <p> Mechanical Team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3">
+            <a class = "self_icon" href="web.html"><i class="fa fa-window-maximize" aria-hidden="true"></i></a>
+            <p> Web Development Team</p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-          <h3>John Smith
-            <small>Job Title</small>
-          </h3>
-          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
-        </div>-->
       </div>
 
-    </div>
-    <!-- /.container -->
+    <hr id="contact" class="featurette-divider divider">
+
+      <!-- Solar Car section-->
+      <!--<div class="center_text">
+        <h2>Our Solar Car</h2>
+      </div>
+
+      <hr id="donate" class="featurette-divider divider">-->
+
+      <!--Connect with Us-->
+      <div class = "container">
+        <h2 class = "center_text">Connect with us on social media</h2>
+        <!-- <div class = "row center_text"> -->
+          <div class="col-xs-1 col-md-offset-4">
+            <a class="btn btn-social-icon btn-lg btn-facebook" href = "https://www.facebook.com/njitsolarcar/"><span class="fa fa-facebook"></span></a>
+          </div>
+
+          <div class="col-xs-1">
+            <a class="btn btn-social-icon btn-lg btn-twitter" href= "https://twitter.com/njitsolarcar?lang=en"><span class="fa fa-twitter"></span></a>
+          </div>
+
+          <div class="col-xs-1">
+            <a class="btn btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/company/njit-solar-car-team/"><span class="fa fa-linkedin"></span></a>
+          </div>
+          <div class="col-xs-1">
+            <a class="btn btn-social-icon btn-lg btn-instagram" href="https://www.instagram.com/njitsolarcar/"><span class="fa fa-instagram"></span></a>
+          </div>
+      </div>
+        <!-- </div> -->
 
     <!-- Footer -->
     <footer class="py-5 self_footer center_text">
       <div class="container">
         <!--<p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>-->
             <div class="col-xs-6 col-sm-2 col-md-offset-1">
-              <div class="circle"><b>1 Car</b></div>
+              <div class="circle"><b>1Car</b></div>
             </div>
 
             <div class="col-xs-6 col-sm-2">
@@ -184,11 +215,11 @@
             </div>
 
             <div class="col-xs-6 col-sm-2">
-              <div class="circle"><b>50 Members</b></div>
+              <div class="circle"><b>66 Members</b></div>
             </div>
 
             <div class="col-xs-6 col-sm-2">
-              <div class="circle"><b>14 Majors</b></div>
+              <div class="circle"><b>21 Majors</b></div>
             </div>
             <div class="col-xs-6 col-sm-2">
               <div class="circle"><b>100% Solar</b></div>
