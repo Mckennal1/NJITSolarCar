@@ -1,0 +1,69 @@
+.color_nav{
+  background-color: rgb(204,0,0);
+}
+
+.color_footer {
+  background-color: rgb(204,0,0);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  line-height: 95px;
+  /*text-align: center;*/
+  background: #0b146f;
+  /*border:3.5px solid #343a40;*/
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.justify_descriptions {
+  text-align: justify
+}
+
+.self_team_image {
+  width:200px;
+  height: 200px;
+}
+
+.descrip {
+  margin-top: 100px;
+}
+
+.descrip_mech {
+  margin-top: 200px;
+}
+
+.descrip_sol {
+  margin-top: 275px;
+}
+
+.descrip_tel {
+  margin-top: 115px;
+}
+
+.descrip_mark {
+  margin-top: 150px;
+}
+
+.divider{
+  border-top-color: rgb(204,0,0);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.row_custom {
+  margin-top: 40px;
+}
+
+.logo_icon {
+  height: 65px;
+  width: 100px;
+}

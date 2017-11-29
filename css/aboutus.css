@@ -1,0 +1,58 @@
+.color_nav{
+  background-color: rgb(204,0,0);
+}
+
+.color_footer {
+  background-color: rgb(204,0,0);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  line-height: 95px;
+  /*text-align: center;*/
+  background: #0b146f;
+  /*border:3.5px solid #343a40;*/
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.img_resize {
+  width:100%;
+  height: auto;
+}
+
+.about_custom {
+  margin-top: 35px;
+}
+
+.divider{
+  border-top-color: rgb(204,0,0);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.self_team_image {
+  width:200px;
+  height: 200px;
+}
+
+.justify_descriptions {
+  text-align: justify
+}
+
+.row_managers {
+  margin-top: 30px;
+}
+
+.logo_icon {
+  height: 65px;
+  width: 100px;
+}

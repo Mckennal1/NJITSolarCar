@@ -1,57 +1,14 @@
-.center_text {
-	text-align: center;
-}
-
-.divider {
-	margin-top: 35px;
-	margin-bottom: 35px;
-	border-top-color: rgb(204,0,0);
-}
-
-.self_icon {
-    font-size: 7ex;
-    color:rgb(204,0,0);
-}
-
-.self_nav_color {
+/* Here under is for new page */
+.color_nav{
   background-color: rgb(204,0,0);
 }
-.img_resize {
-  width:100%;
-  height: auto;
-}
-.color_icon {
-	color: none;
-}
 
-.self_footer {
-  color: #FFF;
-  font-size: 2.5ex;
+.color_footer {
   background-color: rgb(204,0,0);
-  margin-top: 60px;
 }
 
-.self_body_color {
-	background-color: #d4d1d166
-	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-}
-
-.self_div_12 {
-  margin-top: 45px;
-}
-
-.solar_logo {
-  width: 100px;
-  height: 100px;
-  float: right;
-}
-
-.njit_logo {
-  width: 10%;
-}
-
-.self_nav_height {
-  height: 60px;
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
 }
 
 .circle {
@@ -62,6 +19,45 @@
   color: #fff;
   line-height: 95px;
   /*text-align: center;*/
-  background: #1323d6;
+  background: #0b146f;
   /*border:3.5px solid #343a40;*/
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.img_resize {
+  width:100%;
+  height: auto;
+}
+
+.divider {
+  border-top-color: rgb(204,0,0);
+  margin-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.mission {
+  margin-top: 40px;
+}
+
+.logo_icon {
+  height: 65px;
+  width: 100px;
+}
+
+.social_custom {
+  margin-bottom: 40px;
+}
+
+.social_row {
+  margin-top: 20px;
+}
+
+.top_padding {
+  padding-top: 0px;
+}
+
+.logo_icon {
+  height: 65px;
+  width: 100px;
 }
